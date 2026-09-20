@@ -1,0 +1,68 @@
+[
+  {
+    "id": "git-github",
+    "name": "Git & GitHub 로컬 롤백 가이드",
+    "category": "실행 및 복구 통제",
+    "target_track": "automation",
+    "required_specs": "일반 사무용 PC / Mac (별도 GPU 불필요), 완전 무료",
+    "setup_time": "약 10분 (GUI 툴 GitHub Desktop 기준)",
+    "hype_vs_reality": "복잡한 터미널 명령어를 다 외우지 않아도, 무료 GUI 툴을 통해 AI 코딩 도중 코드가 망가지거나 연쇄 에러가 났을 때 1초 만에 정상 작동 상태로 되돌리는 가장 확실한 안전장치입니다.",
+    "link": "https://desktop.github.com",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  },
+  {
+    "id": "continue",
+    "name": "Continue (VS Code 오픈소스 AI 어시스턴트)",
+    "category": "실행 및 복구 통제",
+    "target_track": "automation",
+    "required_specs": "VS Code 구동 PC, 로컬 LLM 연결 시 RAM 16GB+ 권장 (클라우드 API 사용 시 일반 사양 가능)",
+    "setup_time": "약 5분 (확장 마켓플레이스 설치)",
+    "hype_vs_reality": "월 $20 유료 AI 에디터를 대체하여 무료 API나 로컬 모델로 인라인 자동완성과 코드 리팩터링을 쓸 수 있지만, 로컬 모델 구동 시 16GB 이상의 여유 RAM이 필요하며 초기 프롬프트 컨텍스트 규칙(.prompt 파일) 설정이 선행되어야 합니다.",
+    "link": "https://continue.dev",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  },
+  {
+    "id": "semantic-scholar",
+    "name": "Semantic Scholar & DOI Resolver",
+    "category": "출처 및 학술 팩트체크",
+    "target_track": "study",
+    "required_specs": "웹 브라우저 (설치 불필요), 완전 무료",
+    "setup_time": "즉시 사용 가능",
+    "hype_vs_reality": "AI가 그럴듯하게 지어낸 가짜 논문과 실존 논문을 3초 만에 판별할 수 있는 2억 건 이상의 무료 공인 학술 논문 교차 검증 데이터베이스입니다.",
+    "link": "https://www.semanticscholar.org",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian (로컬 지식 내재화 노트)",
+    "category": "지식 내재화 (Net-zero 방지)",
+    "target_track": "study",
+    "required_specs": "모든 PC 및 모바일, 로컬 파일 저장 (클라우드 유출 제로)",
+    "setup_time": "약 5분",
+    "hype_vs_reality": "AI가 대신 요약해 준 파편화된 정보를 내 컴퓨터 안에서 안전하게 연결하고 자기 언어로 구조화하여, AI 활용 후 남는 지식이 0이 되는 현상(Net-zero)을 막아주는 무료 마크다운 지식 도구입니다.",
+    "link": "https://obsidian.md",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  },
+  {
+    "id": "google-sheets-apps-script",
+    "name": "구글 스프레드시트 + 무료 API 연동",
+    "category": "업무 및 데이터 자동화",
+    "target_track": "office",
+    "required_specs": "크롬 브라우저, 구글 무료 계정 1개 (결제 카드 등록 불필요)",
+    "setup_time": "약 5분",
+    "hype_vs_reality": "수십만 원짜리 유료 툴이나 파이썬 환경 설정 없이도, 무료 구글 시트에서 수백 개 행의 텍스트 요약과 결측치 정제를 자동으로 처리하는 현실적 0원 자동화 템플릿입니다.",
+    "link": "https://workspace.google.com/products/sheets/",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI (사내 기밀 유출 제로 로컬 사설 챗 인터페이스)",
+    "category": "사내 데이터 보안 및 프라이버시",
+    "target_track": "office",
+    "required_specs": "일반 사무용 PC 또는 사내 서버 (Docker 또는 Python 구동 환경), CPU 모드 지원",
+    "setup_time": "약 10분",
+    "hype_vs_reality": "외부 서버로 사내 데이터가 단 1바이트도 유출되지 않는 완벽한 로컬 격리와 ChatGPT급 직관적 UI를 제공하지만, 고성능 전용 GPU가 없는 환경에서 대규모 파라미터 모델을 로컬 구동할 경우 동시 사용자 응답 속도가 현저히 느려질 수 있습니다.",
+    "link": "https://openwebui.com",
+    "verified_by": ["personal_use", "source_transparent", "citation_checked"]
+  }
+]
